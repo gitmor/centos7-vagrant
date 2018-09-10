@@ -10,6 +10,8 @@ yum install -y zlib-dev openssl-devel sqlite-devel bzip2-devel
 
 sudo yum -y install python-pip
 
+sudo yum -y install wget
+
 sudo pip install --upgrade pip
 
 sudo pip install awscli
