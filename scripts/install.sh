@@ -47,5 +47,3 @@ cp -rf /vagrant/credentials /home/vagrant/.aws
 echo "alias tfw='aws-vault exec wawa-iac-training --backend=file -- terraform'" > /home/vagrant/.alias
 
 echo "alias ec2desc='aws ec2 describe-instances --profile wawa-iac-training'" >> /home/vagrant/.alias
-
-source /home/vagrant/.alias
